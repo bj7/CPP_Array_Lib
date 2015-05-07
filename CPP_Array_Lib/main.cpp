@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+#include "Array_Lib.h"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    Array<int> array = *new Array<int>(4);
+    cout << array.get_size();
+    
+    
     return 0;
 }
