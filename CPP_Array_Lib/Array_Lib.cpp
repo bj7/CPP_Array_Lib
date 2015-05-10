@@ -7,15 +7,26 @@
 //
 
 #include "Array_Lib.h"
+#include <stdio.h>
 
-template<class T>
-
+template <typename T>
 Array<T>::Array(int size) {
     this->size = size;
-    this->array = new T[size];
+    this->array = new T[size]();
+}
+
+template <typename T>
+int Array<T>::get_size() {
+    return this->size;
+}
+
+template <typename T>
+void Array<T>::set(int i, T a) {
+    
+    this->array[i] = a;
 }
 
 template<class T>
-int Array<T>::get_size() {
-    return this->size;
+T* Array<T>::get() {
+    return this->array;
 }

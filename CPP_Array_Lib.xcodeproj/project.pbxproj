@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A45414C1AFAF94E00E3B9E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A45414B1AFAF94E00E3B9E1 /* main.cpp */; };
 		0A4541541AFAFB2C00E3B9E1 /* Array_Lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4541521AFAFB2C00E3B9E1 /* Array_Lib.cpp */; };
+		0A4541571AFBD09C00E3B9E1 /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A4541551AFBD09C00E3B9E1 /* debug.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		0A45414B1AFAF94E00E3B9E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A4541521AFAFB2C00E3B9E1 /* Array_Lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array_Lib.cpp; sourceTree = "<group>"; };
 		0A4541531AFAFB2C00E3B9E1 /* Array_Lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array_Lib.h; sourceTree = "<group>"; };
+		0A4541551AFBD09C00E3B9E1 /* debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = debug.cpp; sourceTree = "<group>"; };
+		0A4541561AFBD09C00E3B9E1 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		0A45414A1AFAF94E00E3B9E1 /* CPP_Array_Lib */ = {
 			isa = PBXGroup;
 			children = (
+				0A4541551AFBD09C00E3B9E1 /* debug.cpp */,
+				0A4541561AFBD09C00E3B9E1 /* debug.h */,
 				0A45414B1AFAF94E00E3B9E1 /* main.cpp */,
 				0A4541521AFAFB2C00E3B9E1 /* Array_Lib.cpp */,
 				0A4541531AFAFB2C00E3B9E1 /* Array_Lib.h */,
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A45414C1AFAF94E00E3B9E1 /* main.cpp in Sources */,
+				0A4541571AFBD09C00E3B9E1 /* debug.cpp in Sources */,
 				0A4541541AFAFB2C00E3B9E1 /* Array_Lib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +247,7 @@
 				0A4541511AFAF94E00E3B9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
