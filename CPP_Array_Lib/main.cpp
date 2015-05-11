@@ -9,8 +9,8 @@
 #include <iostream>
 #include "Array_Lib.cpp"
 #include "Array_Lib.h"
-#include "debug.h"
-#include "debug.cpp"
+#include "utilities.h"
+#include "utilities.cpp"
 #include <libc.h>
 #include <stdlib.h>
 using namespace std;
